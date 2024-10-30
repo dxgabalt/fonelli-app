@@ -18,10 +18,25 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dxgabalt.aplicacionfonellijoyeria",
+      "permissions": [
+        "CAMERA",
+        "LOCATION",
+        "READ_EXTERNAL_STORAGE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b1352653-a483-4649-9738-affd8698723d"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "owner": "dxgabalt"
   }
 }
